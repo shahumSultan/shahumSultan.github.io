@@ -1,0 +1,80 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #EBEBEB !important;
+    border-bottom: 0.5px solid black;
+}
+
+.navbar-nav.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+}
+
+.content {
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 15px 30px 30px;
+}
+
+.home {
+    text-align: center;
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.headshot {
+    margin: 8px 20px 20px 0;
+    max-height: 250px;
+    float: left;
+}
+
+.stat {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.link {
+    color: #000000;
+}
+
+.link:hover {
+    text-decoration: none !important;
+    color: #780000;
+}
+
+.footer {
+    padding: 10px 15px 0;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+svg:hover {
+    fill: #780000 !important;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: grey;
+}
+
+div.cv_resume {
+    text-align: center;
+}
+
+div.cv_resume iframe {
+    display: block;
+    margin-left: -25%;
+}
