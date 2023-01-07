@@ -23,12 +23,8 @@
 }
 
 .topnav a.active {
-  background-color: #780000;
+  background-color: #04AA6D;
   color: white;
-}
-
-.topnav .icon {
-  display: none;
 }
 
 .content {
@@ -100,7 +96,7 @@ div.cv_resume iframe {
   * {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   }
-  
+
   .name {
     font-size: 30px;
   }
